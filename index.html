@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ana Sayfa - NOMİSMA</title>
+<title>Ana Sayfa - Fikir Atölyesi</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -174,15 +174,15 @@
   <div class="max-w-[1440px] mx-auto px-6 md:px-16 lg:px-20 py-5 flex justify-between items-center">
     <!-- Logo -->
     <a href="#" class="text-xl font-bold tracking-tighter text-on-surface">
-      NOMİSMA
+      Fikir Atölyesi
     </a>
 
     <!-- Desktop Nav -->
     <div class="hidden md:flex items-center space-x-1">
-      <a href="#" class="text-primary border-b-2 border-primary pb-0.5 px-3 py-2 text-sm font-medium opacity-80">Ana Sayfa</a>
-      <a href="#" class="text-on-surface hover:text-primary transition-colors hover:bg-surface-container-low rounded px-3 py-2 text-sm font-medium">Yazılar</a>
-      <a href="#" class="text-on-surface hover:text-primary transition-colors hover:bg-surface-container-low rounded px-3 py-2 text-sm font-medium">Hakkımda</a>
-      <a href="#" class="text-on-surface hover:text-primary transition-colors hover:bg-surface-container-low rounded px-3 py-2 text-sm font-medium">İletişim</a>
+      <a href="fikir-atolyesi.html" class="text-primary border-b-2 border-primary pb-0.5 px-3 py-2 text-sm font-medium opacity-80">Ana Sayfa</a>
+      <a href="yazilar.html" class="text-on-surface hover:text-primary transition-colors hover:bg-surface-container-low rounded px-3 py-2 text-sm font-medium">Yazılar</a>
+      <a href="hakkimda.html" class="text-on-surface hover:text-primary transition-colors hover:bg-surface-container-low rounded px-3 py-2 text-sm font-medium">Hakkımda</a>
+      <a href="iletisim.html" class="text-on-surface hover:text-primary transition-colors hover:bg-surface-container-low rounded px-3 py-2 text-sm font-medium">İletişim</a>
     </div>
 
     <!-- Actions -->
@@ -213,10 +213,10 @@
 
   <!-- Mobile Menu -->
   <div id="mobile-menu" class="md:hidden border-t border-surface-container bg-surface/95 backdrop-blur-md px-6 py-4 flex flex-col space-y-1">
-    <a href="#" class="text-primary font-medium py-2 px-3 rounded bg-surface-container-low text-sm">Ana Sayfa</a>
-    <a href="#" class="text-on-surface hover:text-primary hover:bg-surface-container-low py-2 px-3 rounded transition-colors text-sm font-medium">Yazılar</a>
-    <a href="#" class="text-on-surface hover:text-primary hover:bg-surface-container-low py-2 px-3 rounded transition-colors text-sm font-medium">Hakkımda</a>
-    <a href="#" class="text-on-surface hover:text-primary hover:bg-surface-container-low py-2 px-3 rounded transition-colors text-sm font-medium">İletişim</a>
+    <a href="fikir-atolyesi.html" class="text-primary font-medium py-2 px-3 rounded bg-surface-container-low text-sm">Ana Sayfa</a>
+    <a href="yazilar.html" class="text-on-surface hover:text-primary hover:bg-surface-container-low py-2 px-3 rounded transition-colors text-sm font-medium">Yazılar</a>
+    <a href="hakkimda.html" class="text-on-surface hover:text-primary hover:bg-surface-container-low py-2 px-3 rounded transition-colors text-sm font-medium">Hakkımda</a>
+    <a href="iletisim.html" class="text-on-surface hover:text-primary hover:bg-surface-container-low py-2 px-3 rounded transition-colors text-sm font-medium">İletişim</a>
   </div>
 
   <!-- Bottom Divider -->
@@ -232,6 +232,7 @@
 
       <!-- Featured Post -->
       <section class="fade-up delay-1">
+        <a href="yazilar/modern-cagda-stoacilik.html" class="block">
         <article class="group cursor-pointer">
           <!-- Featured Image with overlay text -->
           <div class="relative rounded overflow-hidden aspect-[16/9] bg-surface-container-high mb-6">
@@ -267,6 +268,7 @@
             </p>
           </div>
         </article>
+        </a>
       </section>
 
       <!-- Recent Posts Section -->
@@ -276,6 +278,7 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-12">
 
           <!-- Post 1 -->
+          <a href="yazilar/klasikleri-neden-okumaliyiz.html" class="block">
           <article class="post-card group cursor-pointer flex flex-col gap-4">
             <div class="relative aspect-[4/3] rounded overflow-hidden bg-surface-container-high">
               <img
@@ -297,6 +300,7 @@
               <span class="font-label text-xs text-on-surface-variant/70 mt-1">12 Ekim 2023 · 6 dk okuma</span>
             </div>
           </article>
+          </a>
 
           <!-- Post 2 -->
           <article class="post-card group cursor-pointer flex flex-col gap-4">
@@ -399,13 +403,13 @@
       <div class="bg-surface-container-low p-6 rounded flex flex-col gap-4 items-center text-center">
         <div class="w-20 h-20 rounded-full overflow-hidden ring-2 ring-secondary-fixed-dim">
           <img
-            src="images/yonetıcı.png"
+            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&q=80&fit=crop&crop=face"
             alt="Yazar"
-            class="object-cover w-20 h-20 rounded-full"
+            class="object-cover w-full h-full"
           >
         </div>
         <div>
-          <h4 class="font-headline text-base font-bold text-on-background">Merhaba, Ben NOMİSMA</h4>
+          <h4 class="font-headline text-base font-bold text-on-background">Merhaba, Ben Deniz</h4>
           <p class="font-body text-sm text-on-surface-variant leading-relaxed mt-2">
             Fikir Atölyesi'ne hoş geldiniz. Burada felsefe, edebiyat, verimlilik ve iyi yaşam üzerine düşüncelerimi, okuduklarımı ve deneyimlerimi paylaşıyorum.
           </p>
@@ -421,7 +425,7 @@
         <ul class="flex flex-col gap-2.5 font-body text-sm text-on-surface-variant">
           <li>
             <a href="#" class="flex justify-between items-center group hover:text-primary transition-colors py-1">
-              <span>Felsefem</span>
+              <span>Felsefe</span>
               <span class="bg-surface-container group-hover:bg-primary-container group-hover:text-on-primary-container px-2 py-0.5 rounded-full text-xs transition-colors">12</span>
             </a>
           </li>
@@ -506,12 +510,8 @@
 <!-- Footer -->
 <footer class="w-full mt-8 bg-surface-container-low border-t border-surface-container">
   <div class="max-w-[1440px] mx-auto px-6 md:px-16 lg:px-20 py-10 flex flex-col md:flex-row justify-between items-center gap-6">
-<<<<<<< HEAD
     <a href="#" class="font-headline text-lg font-bold text-on-surface tracking-tighter">Fikir Atölyesi</a>
-=======
-    <a href="#" class="font-headline text-lg font-bold text-on-surface tracking-tighter">NOMİSMA</a>
->>>>>>> cd4f5c7 (profil resmi ve dosya yapısı güncellendi)
-    <p class="font-body text-sm text-on-surface/60">© 2026 NOMİSMA. Tüm Hakları Saklıdır.</p>
+    <p class="font-body text-sm text-on-surface/60">© 2024 Fikir Atölyesi. Tüm Hakları Saklıdır.</p>
     <div class="flex items-center gap-5">
       <a href="#" class="font-label text-xs text-on-surface/60 hover:text-primary underline decoration-primary/40 decoration-2 underline-offset-4 transition-colors">Gizlilik Politikası</a>
       <a href="#" class="font-label text-xs text-on-surface/60 hover:text-primary underline decoration-primary/40 decoration-2 underline-offset-4 transition-colors">Kullanım Koşulları</a>
